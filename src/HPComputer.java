@@ -76,7 +76,7 @@ public class HPComputer extends Computer {
             System.out.println("The battery is below 8 hours");
         }
         else{
-            System.out.println(" if Your battery it's below 2 hours you must chnge it");
+            System.out.println(" if Your battery it's below 2 hours you must change it");
         }
     }
 }
