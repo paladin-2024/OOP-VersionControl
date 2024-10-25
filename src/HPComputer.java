@@ -5,7 +5,7 @@ public class HPComputer extends Computer {
     protected String model;
     protected int intel;
     protected int rayzen;
-    protected int battery;
+   
     public HPComputer(String Brand, String Color, int Storage, int Ram, String OS, int generation, String processor,
             String model,int intel,int rayzen,int battery) {
         super(Brand, Color, Storage, Ram, OS);
