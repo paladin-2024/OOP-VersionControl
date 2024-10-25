@@ -64,7 +64,7 @@ public class HPComputer extends Computer {
     }
     public void HPbattery(){
         Scanner Caleb=new Scanner(System.in);
-        System.out.println("What is the type of your computer? is it Gamnig, programming, orbusiness");
+        System.out.println("What is the type of your computer? is it Gaming, programming, or business");
         String type=Caleb.nextLine();
         if(type=="Gaming"){
             System.out.println("The battery is above 15 hours");
