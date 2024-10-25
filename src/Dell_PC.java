@@ -35,29 +35,29 @@ public class Dell_PC extends Computer {
     Scanner Caleb=new Scanner(System.in);
         System.out.println("Cgoose the processor you want between Intel or AMD processors");
         processor=Caleb.nextLine();
-        if("Intel".equals(processor)){
-            System.out.println("----------Intel Dell Computer----------");
-            System.out.println("Brand:"+getBrand());
-            System.out.println("Color:"+getColor());
-            System.out.println("Model:"+getModel());
-            System.out.println("Intel Core:i"+getIntel());
-            System.out.println("Generation:"+getGeneration()+"th");
-            System.out.println("Storage:"+getStorage()+"GB");
-            System.out.println("Ram:"+getRam()+"GB");
-            System.out.println("Operating System:"+getOS());
+        switch (processor) {
+            case "Intel" -> {
+                System.out.println("----------Intel Dell Computer----------");
+                System.out.println("Brand:"+getBrand());
+                System.out.println("Color:"+getColor());
+                System.out.println("Model:"+getModel());
+                System.out.println("Intel Core:i"+getIntel());
+                System.out.println("Generation:"+getGeneration()+"th");
+                System.out.println("Storage:"+getStorage()+"GB");
+                System.out.println("Ram:"+getRam()+"GB");
+                System.out.println("Operating System:"+getOS());
         }
-        else if("AMD".equals(processor)){
-            System.out.println("----------AMD Dell Computer----------");
-            System.out.println("Brand:"+getBrand());
-            System.out.println("Color:"+getColor());
-            System.out.println("Model:"+getModel());
-            System.out.println("Rayzen"+getRayzen());
-            System.out.println("Storage:"+getStorage()+"GB");
-            System.out.println("Ram:"+getRam()+"GB");
-            System.out.println("Operating System:"+getOS());
+            case "AMD" -> {
+                System.out.println("----------AMD Dell Computer----------");
+                System.out.println("Brand:"+getBrand());
+                System.out.println("Color:"+getColor());
+                System.out.println("Model:"+getModel());
+                System.out.println("Rayzen"+getRayzen());
+                System.out.println("Storage:"+getStorage()+"GB");
+                System.out.println("Ram:"+getRam()+"GB");
+                System.out.println("Operating System:"+getOS());
         }
-        else{
-            System.out.println("Invalid processor choice. Please choose between Intel or AMD processors");
+            default -> System.out.println("Invalid processor choice. Please choose between Intel or AMD processors");
         }
     }
 }
