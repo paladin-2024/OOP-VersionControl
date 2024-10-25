@@ -66,17 +66,11 @@ public class HPComputer extends Computer {
         Scanner Caleb=new Scanner(System.in);
         System.out.println("What is the type of your computer? is it Gaming, programming, or business");
         String type=Caleb.nextLine();
-        if("Gaming".equals(type)){
-            System.out.println("The battery is above 15 hours");
-        }
-        else if("Programming".equals(type)){
-            System.out.println("The battery is above 9 hours");
-        }
-        else if("Business".equals(type)){
-            System.out.println("The battery is below 8 hours");
-        }
-        else{
-            System.out.println(" if Your battery it's below 2 hours you must change it");
+        switch (type) {
+            case "Gaming" -> System.out.println("The battery is above 15 hours");
+            case "Programming" -> System.out.println("The battery is above 9 hours");
+            case "Business" -> System.out.println("The battery is below 8 hours");
+            default -> System.out.println(" if Your battery it's below 2 hours you must change it");
         }
     }
 }
