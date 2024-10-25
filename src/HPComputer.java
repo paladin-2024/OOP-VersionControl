@@ -14,7 +14,6 @@ public class HPComputer extends Computer {
         this.model = model;
         this.intel=intel;
         this.rayzen=rayzen;
-        this.battery=battery;
     }
     public int getGeneration() {
         return generation;
@@ -31,9 +30,7 @@ public class HPComputer extends Computer {
     public int getRayzen() {
         return rayzen;
     }
-    public int getBattery(){
-        return battery;
-    }
+    
 
     @Override
     public void ComputerSpecs() {
