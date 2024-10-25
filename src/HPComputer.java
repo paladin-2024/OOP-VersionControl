@@ -38,6 +38,7 @@ public class HPComputer extends Computer {
         System.out.println("Cgoose the processor you want between Intel or AMD processors");
         processor=Caleb.nextLine();
         if("Intel".equals(processor)){
+            System.out.println("----------Intel Hp Computer----------");
             System.out.println("Brand:"+getBrand());
             System.out.println("Color:"+getColor());
             System.out.println("Model:"+getModel());
@@ -48,6 +49,7 @@ public class HPComputer extends Computer {
             System.out.println("Operating System:"+getOS());
         }
         else if("AMD".equals(processor)){
+            System.out.println("----------AMD Hp Computer----------");
             System.out.println("Brand:"+getBrand());
             System.out.println("Color:"+getColor());
             System.out.println("Model:"+getModel());
