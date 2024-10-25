@@ -33,7 +33,7 @@ public class Dell_PC extends Computer {
         @Override
     public void ComputerSpecs() {
     Scanner Caleb=new Scanner(System.in);
-        System.out.println("Choose the processor you want between Intel or AMD processors");
+        System.out.println("Choose the processor you want between Intel or AMD processors for your Dell computer ");
         processor=Caleb.nextLine();
         switch (processor) {
             case "Intel" -> {
