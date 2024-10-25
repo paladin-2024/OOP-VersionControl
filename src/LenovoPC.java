@@ -37,8 +37,8 @@ public class LenovoPC extends Computer {
         System.out.println("Model:"+getModel());
         System.out.println("Intel Core:i"+getIntel());
         System.out.println("Generation:"+getGeneration());
-        System.out.println("Storage:"+getStorage());
-        System.out.println("Ram:"+getRam());
+        System.out.println("Storage:"+getStorage()+"GB");
+        System.out.println("Ram:"+getRam()+"GB");
         System.out.println("Operating System:"+getOS());
     }
     

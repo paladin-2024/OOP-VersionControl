@@ -41,8 +41,8 @@ public class Dell_PC extends Computer {
             System.out.println("Model:"+getModel());
             System.out.println("Intel Core:i"+getIntel());
             System.out.println("Generation:"+getGeneration());
-            System.out.println("Storage:"+getStorage());
-            System.out.println("Ram:"+getRam());
+            System.out.println("Storage:"+getStorage()+"GB");
+            System.out.println("Ram:"+getRam()+"GB");
             System.out.println("Operating System:"+getOS());
         }
         else if("AMD".equals(processor)){
@@ -50,8 +50,8 @@ public class Dell_PC extends Computer {
             System.out.println("Color:"+getColor());
             System.out.println("Model:"+getModel());
             System.out.println("Rayzen"+getRayzen());
-            System.out.println("Storage:"+getStorage());
-            System.out.println("Ram:"+getRam());
+            System.out.println("Storage:"+getStorage()+"GB");
+            System.out.println("Ram:"+getRam()+"GB");
             System.out.println("Operating System:"+getOS());
         }
         else{
