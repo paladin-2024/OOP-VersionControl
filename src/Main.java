@@ -10,7 +10,7 @@ public class Main {
         computers.add(new Dell_PC("Dell", "White", 256, 8, "Windows 11", 11, "Intel", "Dell AlienWare", 5, 3));
         computers.add(new LenovoPC("Lenovo", "White", 1024, 32, "Windows", 11, "Intel", "Lenovo ThinkPad", 9, 0));
         computers.add(new LenovoPC("Lenovo", "Grey", 1024, 32, "Linux", 6, "Intel", "ThinkPad", 7, 10));
-        Polymorphism mypoly = new Polymorphism();
-        mypoly.InstanceMethod(computers);
+        Polymorphism poly = new Polymorphism();
+        poly.InstanceMethod(computers);
     }
 }
