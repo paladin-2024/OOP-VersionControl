@@ -35,7 +35,7 @@ public class HPComputer extends Computer {
     @Override
     public void ComputerSpecs() {
         Scanner Caleb=new Scanner(System.in);
-        System.out.println("Cgoose the processor you want between Intel or AMD processors");
+        System.out.println("Choose the processor you want between Intel or AMD processors");
         processor=Caleb.nextLine();
         switch (processor) {
             case "Intel" -> {
