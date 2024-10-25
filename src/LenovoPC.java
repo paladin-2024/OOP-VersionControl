@@ -29,9 +29,9 @@ public class LenovoPC extends Computer {
     public int getIntel() {
         return intel;
     }
-
     @Override
     public void ComputerSpecs() {
+        System.out.println("----------Intel Lenovo Computer----------");
         System.out.println("Brand:"+getBrand());
         System.out.println("Color:"+getColor());
         System.out.println("Model:"+getModel());
