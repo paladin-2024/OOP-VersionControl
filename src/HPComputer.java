@@ -43,7 +43,7 @@ public class HPComputer extends Computer {
             System.out.println("Color:"+getColor());
             System.out.println("Model:"+getModel());
             System.out.println("Intel Core:i"+getIntel());
-            System.out.println("Generation:"+getGeneration());
+            System.out.println("Generation:"+getGeneration()+"th");
             System.out.println("Storage:"+getStorage()+"GB");
             System.out.println("Ram:"+getRam()+"GB");
             System.out.println("Operating System:"+getOS());
